@@ -668,5 +668,5 @@ a.dotted-link:hover {
 }
 
 .specialization {
-	font-style: italic;
+	font-style: italic!important;
 }
