@@ -663,3 +663,6 @@ a.dotted-link:hover {
 .specialization {
 	font-style: italic!important;
 }
+.mainskills {
+	display:flex!important;
+}
