@@ -35,9 +35,48 @@
 </head> 
 
 <body>
+<!-- ******NAVBAR****** --> 
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+			<ul class="navbar-nav ml-auto text-center">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+			</ul>
+		</div>
+		<div class="mx-auto my-2 order-0 order-md-1 position-relative">
+			<a class="mx-auto" href="#">
+				<img src="//placehold.it/120/ccff00" class="rounded-circle">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+		<div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+			<ul class="navbar-nav mr-auto text-center">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+			</ul>
+		</div>
+	</nav><!-- ******NAVBAR END****** --> 
+
+
     <!-- ******HEADER****** --> 
     <header class="header">
-        <div class="container clearfix">                       
+        <div class="container-fluid clearfix">                       
             <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="Giorgos Tsalidis" />
             <div class="profile-content float-left">
                 <h1 class="name">Georgios Tsalidis</h1>
@@ -51,480 +90,29 @@
             <a class="btn btn-cta-primary float-right" href="mailto:tsalgiwrgos@gmail.com.com" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>              
         </div><!--//container-->
     </header><!--//header-->
-    
+ 
+	
+	
     <div class="container sections-wrapper">
         <div class="row">
-            <div class="primary col-lg-8 col-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>I like building awesome software. I've built websites, APIs, desktop applications, corporate software and even made penetration testing! If you are interested, you can view some of my favorite projects in my <a href="#portfolio">portfolio</a> down below.</p>
-                         
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-    
-	
-				<section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="https://acta-edu.gr/">ACTA SA - Spin Off Aristotle University of Thessaloniki, Thessaloniki (Greece) </a></span> <span class="year">(27/10/2018–Present)</span></h3>
-                                <p> ▪ Develop, upgrade, and maintain examination systems <br>
-									▪ Write extensible and maintainable code for multiple .NET-based systems(C# and Visual Basic .NET) <br>
-									▪ Development and maintenance of Exam Management System in PHP <br>
-									▪ Development, maintenance and optimization of the company's website <br>
-									▪ Write scripts in JavaScript and Python for automation and optimization <br>
-									▪ Presenting ideas for system improvements <br>
-									▪ Documenting processes and code changes<br>
-								</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Information Security Engineer - <span class="place"><a href="https://interactive.gr/">INTERACTIVE, Thessaloniki-Athens (Greece)</a></span> <span class="year">(01/04/2019–Present)</span></h3>
-                                <p>Providing services for the compliance of enterprises and public and private sector organizations with the requirements and provisions of the European General Rules for the Protection of Personal Data <br>
-										▪ Perform network security analysis and risk management for designated systems <br>
-										▪ Perform information gathering for target customers with open-source and enterprise tools <br>
-										▪ Provid detailed reports on the findings of network and application penetration tests including<br>
-										mitigation and remediation activities
-										</p>
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title">Junior Web developer - Intern - <span class="place"><a href="https://www.artabout.gr/">ArtAbout, Thessaloniki (Greece) </a></span> <span class="year">(01/06/2018–05/09/2018)</span></h3>
-                                <p> ▪ Website Construction with Wordpress <br>
-									▪ Magento Eshop Development<br>
-									▪ ERP integration<br>
-									▪ Maintenance/Problem Solving<br>
-								</p>
-                            </div><!--//item-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-
-		
-				
-                <section class="projects section">
-                    <div class="section-inner">
-                        <h2 class="heading">Personal projects</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title"><a href="https://github.com/GiorgosTsal/Recomendation_System" target="_blank">Recomendation System (Java)</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">▪ Predicts ratings of nearest users according to similarities based on Mathematical functions and error calculations <br>▪ Provides graphic representations</p>
-                                <p><a class="more-link" href="https://github.com/GiorgosTsal/Recomendation_System/archive/master.zip" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="https://github.com/GiorgosTsal/Database-for-Hospital-using-Fingerprint-Scanner" target="_blank">Database for Hospital using Fingerprint Scanner (Java)</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">▪ Acquiring patients information from a database by using their fingerprints on Arduino.</p>
-                                <p><a class="more-link" href="https://github.com/GiorgosTsal/Database-for-Hospital-using-Fingerprint-Scanner/archive/master.zip" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="https://github.com/GiorgosTsal/DotNetUpdater" target="_blank">DotNetUpdater (C#)</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">▪ DotNetUpdater is a library which makes your Desktop .NET(winForm) C# application updatable </p>
-                                <p><a class="more-link" href="https://github.com/GiorgosTsal/DotNetUpdater/archive/master.zip target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
-                            
-                            <a class="btn btn-cta-secondary" href="https://github.com/GiorgosTsal?tab=repositories" target="_blank">More on GitHub <i class="fas fa-chevron-right"></i></a>
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                
-                <section class="github section">
-                    <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>
-                        <p>Below you can see my GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
-                        
-                        <div id="github-graph" class="github-graph">
-
-                        </div><!--//github-graph-->
-
-                        <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.        
-                        <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->                       
-                        <div id="ghfeed" class="ghfeed">
-                        </div><!--//ghfeed-->
-                        
-                    </div><!--//secton-inner-->
-                </section><!--//section-->
-            </div><!--//primary-->
-            <div class="secondary col-lg-4 col-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Thessaloniki, Greece</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">tsalgiwrgos@gmail.com</a></li>
-                                <li><i class="fas fa-link"></i><span class="sr-only">Linkedin:</span><a href="https://www.linkedin.com/in/tsalidis-giorgos">https://www.linkedin.com/in/tsalidis-giorgos</a></li>
-                            </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
-				
-				<aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> MSc in Advanced Computer and Communication Systems</h3>
-                                <h4 class="university">Electrical and Computer Engineering (Aristotle University of Thessaloniki)<span class="year">(2019-Present)</span></h4>
-								<h5 class="specialization university">Specialized in Intelligent Systems - Computational Intelligence Methodologies and Applications</h5>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc in Applied Informatics</h3>
-                                <h4 class="university">Faculty of Applied Informatics (University of Macedonia) <span class="year">(2013-2018)</span></h4>
-								<h5 class="specialization university">Specialized in Applied Informatics</h5>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-            
-                <aside class="testimonials aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Certificates</h2>
-                        <div class="content">
-                            <div class="item">
-                                <blockquote class="quote">                                  
-                                    <p><i class="fas fa-quote-left"></i>Java Servlets and JSP - Build Java EE(JEE) app in 25 steps  &nbsp;&nbsp;<i class="fas fa-quote-right"></i></p>
-                                </blockquote>                
-                                <p class="source"><span class="name">Udemy</span><br /><span class="title">Issued Sep 2019</span></p>       
-									<a href="https://www.udemy.com/certificate/UC-4SV02XIP/" target="_blank">See credential <i class="fas fa-external-link-alt"></i></a>								
-                            </div><!--//item-->
-                            
-							
-							
-							<div class="item">
-                                <blockquote class="quote">                                  
-                                    <p><i class="fas fa-quote-left"></i>Learn Ethical Hacking From Scratch  &nbsp;&nbsp;<i class="fas fa-quote-right"></i></p>
-                                </blockquote>                
-                                <p class="source"><span class="name">Udemy</span><br /><span class="title">Issued Jun 2019</span></p>       
-									<a href="https://www.udemy.com/certificate/UC-CGB4M03G/" target="_blank">See credential <i class="fas fa-external-link-alt"></i></a>								
-                            </div><!--//item-->
-                            
-							
-							
-							<div class="item">
-                                <blockquote class="quote">                                  
-                                    <p><i class="fas fa-quote-left"></i>Nexpose Certified Administrator  &nbsp;&nbsp;<i class="fas fa-quote-right"></i></p>
-                                </blockquote>                
-                                <p class="source"><span class="name">Rapid7</span><br /><span class="title">Issued Jun 2019</span></p>       
-									<a href="https://www.youracclaim.com/badges/44b50c06-c432-4fb8-a032-456362f58f0c" target="_blank">See credential <i class="fas fa-external-link-alt"></i></a>								
-                            </div><!--//item-->
-                            
-							
-							
-                            <p><a class="more-link" href="https://gr.linkedin.com/in/tsalidis-giorgos" target="_blank"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
-                            
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-              
-                            
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>Greek:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Cambridge ESOL Level 1, Grade B <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-            
-                
-                <aside class="list music aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Hobbies &amp; Free Time</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-headphones"></i> <a href="#">Music</a></li>
-                                <li><i class="fa fa-gamepad"></i> <a href="#">Gaming</a></li>
-                                <li><i class="fas fa-dumbbell"></i> <a href="#">Gymnastics</a></li>
-                                <li><i class="fas fa-suitcase-rolling"></i> <a href="#">Travelling</a></li>
-								<li><i class="fas fa-book-reader"></i> <a href="#">Reading Books</a></li>
-								<li><i class="	fas fa-code"></i> <a href="#">Coding</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-             
-                
-                <aside class="credits aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Credits</h2>
-                        <div class="content">
-                            <ul class="list-unstyled pb-2">
-                                <li><a href="https://getbootstrap.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Bootstrap</a></li>
-                                <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fas fa-external-link-alt"></i>FontAwesome</a></li>
-                                <li><a href="https://jquery.com/" target="_blank"><i class="fas fa-external-link-alt"></i>jQuery</a></li>
-                                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Calendar Plugin</a></li>
-                                
-                                <li><a href="https://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Activity Stream</a></li>
-                                
-                                <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i class="fas fa-external-link-alt"></i>jQuery RSS</a></li>
-                                
-                                <li>Profile image: <a href="https://www.flickr.com/photos/dotbenjamin/2577394151" target="_blank">Ben Smith</a></li>
-                            </ul>
-                            
-                            <hr/>
-                            
-                             <p class="pt-2">This Bootstrap 4 portfolio template is handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a> at <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> under the <a class="dotted-link" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a></p>
-                             <p>If you’d like to <strong>use this template without the attribution link</strong>, you can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank">buy the commercial license</a>.</p>
-                             
-                             <a class="btn btn-cta-primary btn-download" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank"><i class="fas fa-download"></i> I want to download</a>
-                            <hr/>
-                            <h5 class="subheading pt-3">Want more free Bootstrap themes and templates?</h5>
-                            <p>Check out our <a href="https://themes.3rdwavemedia.com/bootstrap-templates/free/">collection of free themes and templates.</a></p>
-                            <p>Follow <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying</a> on twitter so you don't miss any future freebies!</p> 
-                            
-                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fab fa-twitter"></i> Follow on twitter</a>
-                            
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-              
-            </div><!--//secondary-->    
-        </div><!--//row-->
-		
-			<div class="row" id="myskillz">
-               <section class="latest section skills aside section mainskills">
-                     <div class="section-inner col-lg-4 col-12">
-                        <h2 class="heading">Technical skills</h2>
-                        <div class="content">
-                            <p class="intro">
-                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
-                            
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">C# &amp; .NET<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-								
-								<div class="item">
-                                    <h3 class="level-title">PHP<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-								<div class="item">
-                                    <h3 class="level-title">Visual Basic .NET<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-								
-                                <div class="item">
-                                    <h3 class="level-title">HTML5 &amp; CSS3<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Java &amp; J2EE<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-								<div class="item">
-                                    <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-								
-								
-                                <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p> 
-                            </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner--> 
-
-
-					 <div class="section-inner col-lg-4 col-12">
-                        <h2 class="heading">Other skills</h2>
-                        <div class="content">
-                            <p class="intro">
-                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
-                            
-                            <div class="skillset">
-                               
-
-								<div class="item">
-                                    <h3 class="level-title">Wordpress &amp; CPanel &amp; phpMyAdmin<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="90%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-								
-                                <div class="item">
-                                    <h3 class="level-title">MySQL &amp; MariaDB<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Bootstrap &amp; AJAX<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-								
-						
-                                <div class="item">
-                                    <h3 class="level-title">ASP.NET MVC &amp; Entity Framework Core<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Maven , Java Servlets &amp; JSP<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-							<div class="item">
-                                    <h3 class="level-title">Agile software development methodologies<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-								<div class="item">
-                                    <h3 class="level-title">Git<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-								
-                            </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->        
-              
-				
-				   <div class="section-inner  col-lg-4 col-12">
-                        <h2 class="heading">Tools for Penetration Testing</h2>
-                        <div class="content">
-                            <p class="intro">
-                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
-                            
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">Nexpose<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Metasploit Framework<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-								
-								<div class="item">
-                                    <h3 class="level-title">Wireshark<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Zed Attack Proxy(ZAP)<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Bettercap<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-								<div class="item">
-                                    <h3 class="level-title">Sqlmap<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-								
-								<div class="item">
-                                    <h3 class="level-title">Aircrack-ng<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->  	
-                                </div><!--//item--> 
-								
-								<div class="item">
-                                    <h3 class="level-title">BeEF &amp; Veil <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-								
-                                <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p> 
-                            </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->   
-				</section><!--//section-->			
-			</div> <!--custom my skills row -->
-		
-		
-    </div><!--//masonry-->
+		  <div class="col-4">
+			<div class="list-group" id="list-tab" role="tablist">
+			  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+			  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+			  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+			  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+			</div>
+		  </div>
+		  <div class="col-8">
+			<div class="tab-content" id="nav-tabContent">
+			  <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+			  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+			  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+			  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+			</div>
+		  </div>
+		</div><!--//row-->
+    </div><!--// container-->
     
 	
 
@@ -534,7 +122,8 @@
     <footer class="footer">
         <div class="container text-center">
                 <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out our commercial license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">© 2019 . All rights reserved </small>
+                <small class="copyright">© 2019 
+. All rights reserved </small>
         </div><!--//container-->
     </footer><!--//footer-->
  
